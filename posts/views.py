@@ -18,7 +18,7 @@ class PostListView(ListView):
 	template_name = 'posts/home.html'
 	context_object_name = 'submissions'
 	ordering = ['-date_posted']			#ensures most recent post is first at the top
-	paginate_by = 5
+	paginate_by = 10
 
 
 class PostDetailView(DetailView):
