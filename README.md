@@ -29,4 +29,21 @@ c) Posts work similarily to pastebin (yes) with the option to download the raw p
 d) Posts have "short" URLS similar to pastebin. Not exactly like pastebin but could receive a shorter URL as long as you know the post id value
 e) User should be able to configure a post expiration date (COULDN'T GET THIS TO WORK)
 f) Posts can have titles
-g) The 
+g) The homepage does display the 10 most recent posts, and then pagination comes into play to sift through the pages of posts
+h) Users should be able to upload text files as posts (COULDN'T GET THIS TO WORK)
+i) Users should be able to type posts into a text field on the post creation page
+
+5. Security
+a) Data encryption:
+  Data is encrypted.
+  Installed django-sslserver and ran that with my local machine to generate SSL cert and key then run 'python manage.py runsslserver' to enable HTTPS instead of HTTP.
+  
+b) File uploads
+c) XSS
+d) CSRF
+e) SQLite
+f) Secure authentication and authorization theme
+
+Message from creator:
+Very inexperienced when it comes to web development or software development in general. This is the best I was able to conjure up with a lot of help from the internet. No previous experience with web development(bridged from Comp. Eng.) but I must say that I had a lot of fun creating this website and I learned A LOT. Thank you very much. 
+ 
